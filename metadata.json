@@ -1,0 +1,6 @@
+{
+  "name": "Daylist",
+  "description": "A clean, focused Android to-do list app for organizing daily tasks, priorities, categories, and due dates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

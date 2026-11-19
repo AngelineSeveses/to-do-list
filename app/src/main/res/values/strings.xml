@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Daylist</string>
+    <string name="app_tagline">Calm, focused daily tasks saved right on your device.</string>
+    <string name="enter_now">Enter Now</string>
+    <string name="welcome_heading">Organize your day with intention</string>
+    <string name="welcome_subtitle">Capture tasks, set priorities, and stay on top of your schedule with a clean daily list.</string>
+
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_insights">Insights</string>
+    <string name="action_add_task">New Task</string>
+    <string name="action_search">Search tasks</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_account">Account options</string>
+    <string name="action_save">Save Task</string>
+    <string name="action_update">Update Task</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_clear_completed">Clear done</string>
+
+    <string name="search_placeholder">Search by title or notes…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_upcoming">Upcoming</string>
+    <string name="filter_completed">Completed</string>
+
+    <string name="category_all">All</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
+    <string name="category_errands">Errands</string>
+    <string name="category_health">Health</string>
+    <string name="category_general">General</string>
+
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+
+    <string name="editor_new_title">New Task</string>
+    <string name="editor_edit_title">Edit Task</string>
+    <string name="editor_title_label">Task title</string>
+    <string name="editor_title_placeholder">What needs your focus?</string>
+    <string name="editor_notes_label">Notes (optional)</string>
+    <string name="editor_notes_placeholder">Add context, links, or steps…</string>
+    <string name="editor_priority_label">Priority</string>
+    <string name="editor_category_label">Category</string>
+    <string name="editor_due_date_label">Due date</string>
+    <string name="due_none">No date</string>
+    <string name="due_today">Today</string>
+    <string name="due_tomorrow">Tomorrow</string>
+    <string name="due_next_week">Next week</string>
+    <string name="due_pick_date">Pick date</string>
+    <string name="due_overdue_prefix">Overdue • %1$s</string>
+
+    <string name="progress_title">Daily Progress</string>
+    <string name="progress_summary">%1$d of %2$d completed</string>
+    <string name="progress_all_done">Everything checked off for now</string>
+    <string name="empty_tasks_title">A clear desk</string>
+    <string name="empty_tasks_subtitle">Tap New Task to capture your next priority and keep your day moving smoothly.</string>
+    <string name="empty_filtered_title">No matching tasks</string>
+    <string name="empty_filtered_subtitle">Try clearing your search or switching filters to see more tasks.</string>
+
+    <string name="insights_title">Focus &amp; Progress</string>
+    <string name="insights_completion_rate">Completion Rate</string>
+    <string name="insights_active_label">Active</string>
+    <string name="insights_done_label">Completed</string>
+    <string name="insights_overdue_label">Overdue</string>
+    <string name="insights_by_priority">Active by Priority</string>
+    <string name="insights_by_category">Tasks by Category</string>
+    <string name="insights_empty">Add a few tasks to unlock your personal focus breakdown.</string>
+
+    <string name="cd_empty_illustration">Calm desk stationery illustration</string>
+    <string name="cd_toggle_complete">Toggle task completion</string>
+    <string name="cd_delete_task">Delete task</string>
+    <string name="error_load_tasks">Could not load your tasks. Please check your connection.</string>
+    <string name="snackbar_task_deleted">Task removed</string>
+    <string name="snackbar_completed_cleared">Cleared completed tasks</string>
+</resources>

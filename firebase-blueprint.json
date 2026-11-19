@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "Task": {
+      "title": "Task",
+      "description": "A user-owned to-do list item.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Authenticated owner UID matching the parent user document."
+        },
+        "title": {
+          "type": "string",
+          "description": "Task title (1 to 120 characters)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional task notes (0 to 500 characters)."
+        },
+        "completed": {
+          "type": "boolean",
+          "description": "Whether the task is completed."
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["LOW", "MEDIUM", "HIGH"],
+          "description": "Task priority level."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["PERSONAL", "WORK", "ERRANDS", "HEALTH", "GENERAL"],
+          "description": "Task category."
+        },
+        "dueAtMillis": {
+          "type": "integer",
+          "description": "Due date timestamp in epoch milliseconds, or 0 if unset."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp; clients must submit FieldValue.serverTimestamp()."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp; clients must submit FieldValue.serverTimestamp()."
+        }
+      },
+      "required": [
+        "userId",
+        "title",
+        "notes",
+        "completed",
+        "priority",
+        "category",
+        "dueAtMillis",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/tasks/{taskId}": {
+      "schema": { "$ref": "#/entities/Task" },
+      "description": "User-scoped to-do tasks owned by {userId}."
+    }
+  }
+}
